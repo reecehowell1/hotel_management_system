@@ -1,13 +1,27 @@
-body {
+@font-face{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter_18pt-ExtraBoldItalic.ttf')format('truetype');
+  font-weight:normal;
+  font-style:normal;
+
+}
+
+body {
+  margin:0;
+  font-family: 'inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+.font-bold{
+  font-family:'Oswald', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
